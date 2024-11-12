@@ -22,6 +22,8 @@ public class GameListService {
 		List<GameListDTO> dto = result.stream().map(x -> new GameListDTO(x)).toList();
 		return dto;
 	}
+
+	
 	
 
 }
